@@ -33,6 +33,7 @@ header{
 .img-circle{
 	border-radius: 50%;
 	height: 40px;
+	width: 40px;
 }
 
 /*--------------------------------------------*/
@@ -79,13 +80,12 @@ header{
 	.form {
 	background-color: white;
 	padding: 20px;
-	width: 350px;
 	height: 30px;
 	border-bottom: 2px #CACACA solid;
 	}
 	input{
 		height: 30px;
-		width: 79%;
+		width: 90%;
 		background: white;
 		border-radius: 5px;
 		border: 1px #DCE0E6 solid;
@@ -172,6 +172,14 @@ header{
 			justify-content: flex-end;
 			padding: 0 10px 0 10px;
 		}
+		.mensaje-media-w{
+			display: flex;
+			height: 35px;
+			width: 130px;
+			background: #DCF8C6;
+			justify-content: flex-end;
+			padding: 0 10px 0 10px;
+		}
 	.mensaje-left{
 		display: flex;
 		justify-content: flex-start;
@@ -212,7 +220,7 @@ header{
 	}
 
 
-	
+
 /*.scroll-bar::-webkit-scrollbar {
 	width: 6px;
 }
